@@ -91,7 +91,7 @@ if ($ADMIN->fulltree) {
     $setting = new admin_setting_configselect($name, $title, $description, $default,
         \filter_synhi\toolbox::ENLIGHTERSELECTORS
     );
-    $settings->add($setting);
+    $page->add($setting);
     // EnlighterJS selector two.
     $name = 'filter_synhi/enlighterjsselectortwo';
     $title = new lang_string('enlighterjsselectortwo', 'filter_synhi');
@@ -100,7 +100,7 @@ if ($ADMIN->fulltree) {
     $setting = new admin_setting_configselect($name, $title, $description, $default,
         \filter_synhi\toolbox::ENLIGHTERSELECTORS
     );
-    $settings->add($setting);
+    $page->add($setting);
 
     // Syntax Highlighter example.
     $name = 'filter_synhi/syntaxhighlighterexample';

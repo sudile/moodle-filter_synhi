@@ -72,6 +72,12 @@ class toolbox {
      */
     private const SYNTAXHIGHLIGHTERCSSPOST = '.css';
 
+    public const ENLIGHTERSELECTORS = array(
+        'synhi pre' => 'synhi pre',
+        'synhi code' => 'synhi code',
+        'none' => 'none'
+    );
+
     /**
      * @var string Enlighter JS styles.
      */
